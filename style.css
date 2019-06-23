@@ -2,22 +2,39 @@ body {
     background: #fefefe;
 }
 
-.thirdHeader {
+.dairy__thirdHeader {
     color: #28536B;
 }
 
-.sectionHeader {
+.about{
+    overflow: hidden;
+}
+
+.about__header, .dairy__header{
     color: #006494;
 }
 
-.paragraph {
+.about__paragraph, .dairy__paragraph{
     color: #001323;
+    padding: 16px;
+    
 }
+
+
+
+.about__picture {
+ width: 100%;
+ max-width: 100px;
+ display: block;
+ float: left;
+ margin: 0 16px 16px 0;
+}
+
 .mainHeader {
     color: #01396B;
 }
 
-.link {
+.navigation__link {
     color: #06AED5;
 }
 
