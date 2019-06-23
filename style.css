@@ -1,0 +1,18 @@
+body {
+    background: #fefefe;
+}
+
+.header {
+    color: tomato;
+}
+
+.sectionHeader {
+    color: #1460AA;
+}
+
+p {
+    color: darkblue;
+}
+.mainHeader {
+    color: hotpink;
+}
