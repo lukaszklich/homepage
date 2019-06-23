@@ -18,5 +18,12 @@ body {
 }
 
 .link {
-    color: #06AED5
+    color: #06AED5;
+}
+
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto; 
+
 }
