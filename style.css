@@ -2,17 +2,21 @@ body {
     background: #fefefe;
 }
 
-.header {
-    color: tomato;
+.thirdHeader {
+    color: #28536B;
 }
 
 .sectionHeader {
-    color: #1460AA;
+    color: #006494;
 }
 
-p {
-    color: darkblue;
+.paragraph {
+    color: #001323;
 }
 .mainHeader {
-    color: hotpink;
+    color: #01396B;
+}
+
+.link {
+    color: #06AED5
 }
