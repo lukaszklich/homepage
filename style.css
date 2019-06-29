@@ -4,6 +4,27 @@ body {
       
 }
 
+.navigation{    
+    min-height: 10hv;
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation_item{
+    border: 4px solid #fddede;
+    padding: 16px;
+    text-align: center;
+    background: #60a9a6;
+    color: #caf2d7;
+    font-weight: bold;
+    font-size: 20px;
+    width: 400px;
+}
+
+.navigation__link {
+    color: #fff;
+}
+
 .dairy__thirdHeader {
     color: #28536B;
 }
@@ -23,7 +44,6 @@ body {
 }
 
 
-
 .about__picture {
  width: 100%;
  max-width: 100px;
@@ -36,9 +56,7 @@ body {
     color: #01396B;
 }
 
-.navigation__link {
-    color: #06AED5;
-}
+
 
 .main {
     width: 100%;
