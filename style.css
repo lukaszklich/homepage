@@ -1,28 +1,26 @@
 body {    
-    background-color: #08AEEA;
-    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
-      
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);      
 }
 
 .navigation{    
     min-height: 10hv;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .navigation_item{
-    border: 4px solid #fddede;
     padding: 16px;
     text-align: center;
-    background: #60a9a6;
-    color: #caf2d7;
+    background: #fff;
     font-weight: bold;
-    font-size: 20px;
-    width: 400px;
+    font-size: 15px;
+    width: 100px;
 }
 
 .navigation__link {
-    color: #fff;
+    text-decoration: none;
+    color: #000;
 }
 
 .dairy__thirdHeader {
