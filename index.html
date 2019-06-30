@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lukasz Klich</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -14,22 +14,20 @@
         <nav class="navigation">
             <ul class="navigation__list">
                 <li class="navigation__item"><a class="navigation__link" href="index.html">Strona główna</a></ol>
-                <li class="navigation__item"><a class="navigation__link" href="day1.html">Dzień 1</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="day2.html">Dzień 2</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="day3.html">Dzień 3</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="day4.html">Dzień 4</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="day5.html">Dzień 5</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#">Dzień 1</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#">Dzień 2</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#">Dzień 3</a></li>
             </ul>
-        </nav>    
+        </nav>
     </header>
     <main class="main">
 
         <h1 class="heading">Łukasz Klich - Strona domowa</h1>
 
         <section class="about">
-            
+
             <h2 class="about__header">O mnie </h2>
-            <img class="about__picture" src="images5.jpg" alt="zdjecie">
+            <img class="about__picture" src="img/avatar.png" alt="zdjecie">
             <p class="about__paragraph">
                 Nazywam się Łukasz Klich. Postanowiłem przeżyć niesamowitą przygodę, dlatego biorę udział w kursie WTF:
                 Co ten frontend.
@@ -38,43 +36,45 @@
                 Test test
             </p>
         </section>
-        <section>
+        <section class="dairy">
             <h2 class="dairy__header"> Pamiętniczek </h2>
-            <section>
-                <h3 class="dairy__thirdHeader"> Dzień 1 </h3>
-                <p class="dairy__paragraph">
-                    Podczas pierwszego dnia szkolenia dowaidzialem się co dokładnie będzie przedmiotem kursu.
-                </p>
-            </section>
-            <section>
-                <h3 class="dairy__thirdHeader"> Dzień 2 </h3>
-                <p class="dairy__paragraph">
-                    Drugiego dnia szkolenia stworzyłem swój perwszy projekt.
-                </p>
-            </section>
-            <section>
-                <h3 class="dairy__thirdHeader"> Dzień 3 </h3>
-                <p class="dairy__paragraph">
-                    Dziś poznałem budowę strony internetowej.
-                </p>
-            </section>
-            <section>
-                <h3 class="dairy__thirdHeader"> Dzień 4 </h3>
-                <p class="dairy__paragraph">
-                    Kolejnym etapem kursu było zapoznanie się z HTML.
-                </P>
-            </section>
-            <section>
-                <h3 class="dairy__thirdHeader"> Dzień 5 </h3>
-                <p class="dairy__paragraph">
-                    Dzień piąty - CSS.
-                </p>
-            </section>
-            <section>
-                <h3 class="dairy__thirdHeader"> Dzień 6 </h3>
-                <p class="dairy__paragraph">
-                    Dzień szósty - sobota... finał Ligi Mistrzów :P
-                </p>
+            <section class="dairy__grid">
+                <div class="dairy__item dairy__item1">
+                    <h3 class="dairy__thirdHeader"> Dzień 1 </h3>
+                    <p class="dairy__paragraph">
+                        Podczas pierwszego dnia szkolenia dowaidzialem się co dokładnie będzie przedmiotem kursu.
+                    </p>
+                </div>
+                <div class="dairy__item dairy__item2">
+                    <h3 class="dairy__thirdHeader"> Dzień 2 </h3>
+                    <p class="dairy__paragraph">
+                        Drugiego dnia szkolenia stworzyłem swój perwszy projekt.
+                    </p>
+                </div>
+                <div class="dairy__item dairy__item3">
+                    <h3 class="dairy__thirdHeader"> Dzień 3 </h3>
+                    <p class="dairy__paragraph">
+                        Dziś poznałem budowę strony internetowej.
+                    </p>
+                </div>
+                <div class="dairy__item dairy__item4">
+                    <h3 class="dairy__thirdHeader"> Dzień 4 </h3>
+                    <p class="dairy__paragraph">
+                        Kolejnym etapem kursu było zapoznanie się z HTML.
+                    </P>
+                </div>
+                <div class="dairy__item dairy__item5">
+                    <h3 class="dairy__thirdHeader"> Dzień 5 </h3>
+                    <p class="dairy__paragraph">
+                        Dzień piąty - CSS.
+                    </p>
+                </div>
+                <div class="dairy__item dairy__item6">
+                    <h3 class="dairy__thirdHeader"> Dzień 6 </h3>
+                    <p class="dairy__paragraph">
+                        Dzień szósty - sobota... finał Ligi Mistrzów :P
+                    </p>
+                </div>
             </section>
         </section>
 
@@ -82,7 +82,7 @@
     <footer>
         Strona domowa Łukasza Klicha, wszystkie treści są efektem udziału w szkoleniu WTF: Co ten frontend.
     </footer>
-    <script src="code.js"></script>
+    <script src="js/code.js"></script>
 </body>
 
 </html>

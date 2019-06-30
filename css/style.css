@@ -1,0 +1,104 @@
+body {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.site-header {
+    background: #fff;
+    box-sizing: border-box;
+    left: 0;
+    padding: 16px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navigation {}
+
+.navigation__list {
+    list-style: none;
+    padding: 0;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation__item {
+    display: inline;
+    margin: 0 16px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #01396B;
+}
+.dairy{
+
+
+}
+
+.dairy__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.dairy__item{
+
+}
+
+.dairy__header{
+
+}
+
+.dairy__paragraph{
+
+}
+
+.dairy__thirdHeader {
+    color: #28536B;
+}
+
+.about {
+    overflow: hidden;
+}
+
+.about__header, .dairy__header {
+    color: #006494;
+}
+
+.about__paragraph, .dairy__paragraph {
+    color: #001323;
+    padding: 16px;
+}
+
+.about__picture {
+    width: 100%;
+    max-width: 100px;
+    display: block;
+    float: left;
+    margin: 0 16px 16px 0;
+}
+
+.heading {
+    color: #006494;
+}
+
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 100px auto;
+}
+
+@media (max-width: 640px){
+    .dairy__grid{
+        grid-template-columns: 1fr;
+    }
+
+    .dairy__paragraph{
+        font-size: 12px;
+    }
+
+    .dairy__thirdHeader {
+        color: rgb(102, 1, 1);
+        font-size: 1em;
+    }
+}
