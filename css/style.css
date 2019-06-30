@@ -10,6 +10,8 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 10;
+    min-height: 48px;
 }
 
 .navigation {}
@@ -17,7 +19,6 @@ body {
 .navigation__list {
     list-style: none;
     padding: 0;
-    height: 20px;
     display: flex;
     justify-content: center;
 }
@@ -89,6 +90,31 @@ body {
 }
 
 @media (max-width: 640px){
+    .navigation{
+        
+    }
+
+    .navigation__button{
+        border: none;
+        background: none;
+        position: absolute;
+        right: 16px;
+        top: 16px;
+    }
+
+    .navigation__item {
+        margin: 16px;
+    }
+
+    .navigation__list{
+        flex-direction: column;
+        display:none;
+    }
+
+    .navigation__list--visible{
+        display:flex;
+    }
+
     .dairy__grid{
         grid-template-columns: 1fr;
     }
@@ -100,5 +126,11 @@ body {
     .dairy__thirdHeader {
         color: rgb(102, 1, 1);
         font-size: 1em;
+    }
+}
+
+@media (min-width: 641px){
+    .navigation__button{
+        display:none;
     }
 }
